@@ -1,3 +1,22 @@
+<?php
+$username = 'Mirjam Laanejõe
+$fulltimenow = date('d.m.Y
+
+
+//vaame semestri kulgu
+$semesterstart = new DateTime('2020-8-31'); 
+$semesterend = new DateTime('2020-12-13'); 
+//slgitame välje nende vahe ehk erinevuse
+$semesterduration = $semesterstart->diff($semesternd);
+//leiame selle päevade arvuna
+$semesterdurationdays = $semesterduration->format('%r%a');
+//tänane päevade
+$today = new DateTime('now');
+
+//ig($fromsemesterstartdays < 0){semester pole praegu alanud}
+?>
+
+
 <!DOCTYPE html>
 <html lang="et">
 <head>
